@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muffakham Jah College of Engineering and Technology</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">Muffakham Jah College of Engineering and Technology</h1>
+    </header>
+    
+    <main>
+        <section>
+            <aside>
+
+                <form class="application-form">
+                    <fieldset>
+                        <legend class="form-legend">Application Form</legend>
+                        <ol>
+                            <li class="form-field">
+                                <label for="candidate-name">Name of Candidate:</label>
+                                <input type="text" id="candidate-name" name="candidate-name" required>
+                            </li>
+                            <li class="form-field">
+                                <label for="father-name">Name of Father:</label>
+                                <input type="text" id="father-name" name="father-name" required>
+                            </li>
+                            <li class="form-field">
+                                <label for="mother-name">Name of Mother:</label>
+                                <input type="text" id="mother-name" name="mother-name" required>
+                            </li>
+                            <li class="form-field">
+                                <label for="profile-picture">Upload Picture (Passport Size):</label>
+                                <div class="upload-button">
+                                  <input type="file" id="profile-picture" name="profile-picture" accept="image/*" required>
+                                  <label for="profile-picture" class="upload-label">Choose File</label>
+                                </div>
+                                <img id="preview-image" src="#" alt="Preview" class="preview-image">
+                            </li>
+                            
+                            <fieldset>
+                                <legend class="form-sub-legend">DOB + Age</legend>
+                                <li class="form-field">
+                                    <label for="dob">Date of Birth:</label>
+                                    <input type="date" id="dob" name="dob" required>
+                                </li>
+                                <li class="form-field">
+                                    <label for="age">Age:</label>
+                                    <input type="number" id="age" name="age" required>
+                                </li>
+                                <li class="form-field">
+                                    <label for="place-of-birth">Place of Birth:</label>
+                                    <input type="text" id="place-of-birth" name="place-of-birth" required>
+                                </li>
+                            </fieldset>
+                            
+                            <fieldset>
+                                <legend class="form-sub-legend">Background Information</legend>
+                                <li class="form-field">
+                                    <label for="nationality">Nationality:</label>
+                                    <input type="text" id="nationality" name="nationality" required>
+                                </li>
+                                <li class="form-field">
+                                    <label for="religion">Religion:</label>
+                                    <input type="text" id="religion" name="religion" required>
+                                </li>
+                                <li class="form-field">
+                                    <label for="mother-tongue">Mother Tongue:</label>
+                                    <input type="text" id="mother-tongue" name="mother-tongue" required>
+                                </li>
+                            </fieldset>
+                            
+                            <fieldset>
+                                <legend class="form-sub-legend">Profession of Parent/Guardian</legend>
+                                <li class="form-field">
+                                    <label for="Profession">Profession</label>
+                                    <input type="text" id="Profession" name="Profession" required>
+                                </li>
+                                <li class="form-field">
+                                    <label for="income">Income in Rs:</label>
+                                    <input type="text" id="income" name="income" required>
+                                </li>
+                                <li class="form-field">
+                                    <label for="work-place">Place of Work:</label>
+                                    <input type="text" id="work-place" name="work-place" required>
+                                </li>
+                            </fieldset>
+                            
+                            <li class="form-field">
+                                <fieldset>
+                                    <legend class="form-sub-legend">Address:</legend>
+                                    <ol>
+                                        <li class="form-field">
+                                            <label for="present-address">Present Address:</label>
+                                            <input type="text" id="present-address" name="present-address" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="pincode">Pincode:</label>
+                                            <input type="text" id="pincode" name="pincode" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="father-phone">Phone Number (Parent/Guardian):</label>
+                                            <input type="text" id="father-phone" name="father-phone" required>
+                                        </li>
+                                    </ol>
+                                </fieldset>
+                            </li>
+                            <li class="form-field">
+                                <fieldset>
+                                    <legend class="form-sub-legend">Identification Marks of the Applicants:</legend>
+                                    <ol>
+                                        <li class="form-field">
+                                            <input type="text" id="mark1" name="mark1" placeholder="Identification Mark 1" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <input type="text" id="mark2" name="mark2" placeholder="Identification Mark 2" required>
+                                        </li>
+                                    </ol>
+                                </fieldset>
+                            </li>
+                            <li class="form-field">
+                                <label for="aadhar">Student Aadhar (UID No):</label>
+                                <input type="text" id="aadhar" name="aadhar" required>
+                            </li>
+                            <li class="form-field">
+                                <fieldset>
+                                    <legend class="form-sub-legend">Eamcet Details:</legend>
+                                    <ol>
+                                        <li class="form-field">
+                                            <label for="hall-ticket">HallTicket Number Eamcet/ECET:</label>
+                                            <input type="text" id="hall-ticket" name="hall-ticket" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="marks-obtained">Marks Obtained in Eamcet/ECET:</label>
+                                            <input type="text" id="marks-obtained" name="marks-obtained" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="rank-secured">Rank Secured in Eamcet/ECET:</label>
+                                            <input type="text" id="rank-secured" name="rank-secured" required>
+                                        </li>
+                                    </ol>
+                                </fieldset>
+                            </li>
+                            <li class="form-field">
+                                <fieldset>
+                                    <legend class="form-sub-legend">Details of Intermediate / Polytechnic or its Equivalent:</legend>
+                                    <ol>
+                                        <li class="form-field">
+                                            <label for="college1">Name of the College/Address:</label>
+                                            <input type="text" id="college1" name="college1" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="grade1">Grade:</label>
+                                            <input type="text" id="grade1" name="grade1" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="total-marks-languages1">Total Marks secured in Languages:</label>
+                                            <input type="text" id="total-marks-languages1" name="total-marks-languages1" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="total-marks-optionals1">Total marks secured in optionals:</label>
+                                            <input type="text" id="total-marks-optionals1" name="total-marks-optionals1" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="overall-percentage1">Overall percentage:</label>
+                                            <input type="text" id="overall-percentage1" name="overall-percentage1" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="percentage-optionals1">Percentage of Optionals:</label>
+                                            <input type="text" id="percentage-optionals1" name="percentage-optionals1" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="year-passing1">Year of passing [IPE/CBSC/ICSE]:</label>
+                                            <input type="text" id="year-passing1" name="year-passing1" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="roll-no1">Roll No.:</label>
+                                            <input type="text" id="roll-no1" name="roll-no1" required>
+                                        </li>
+                                    </ol>
+                                </fieldset>
+                            </li>
+                            <li class="form-field">
+                                <fieldset>
+                                    <legend class="form-sub-legend">Details of Intermediate / Polytechnic or its Equivalent:</legend>
+                                    <ol>
+                                        <li class="form-field">
+                                            <label for="college2">Name of the College/Address:</label>
+                                            <input type="text" id="college2" name="college2" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="grade2">Grade:</label>
+                                            <input type="text" id="grade2" name="grade2" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="total-marks-languages2">Total Marks secured in Languages:</label>
+                                            <input type="text" id="total-marks-languages2" name="total-marks-languages2" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="total-marks-optionals2">Total marks secured in optionals:</label>
+                                            <input type="text" id="total-marks-optionals2" name="total-marks-optionals2" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="overall-percentage2">Overall percentage:</label>
+                                            <input type="text" id="overall-percentage2" name="overall-percentage2" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="percentage-optionals2">Percentage of Optionals:</label>
+                                            <input type="text" id="percentage-optionals2" name="percentage-optionals2" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="year-passing2">Year of passing [IPE/CBSC/ICSE]:</label>
+                                            <input type="text" id="year-passing2" name="year-passing2" required>
+                                        </li>
+                                        <li class="form-field">
+                                            <label for="roll-no2">Roll No.:</label>
+                                            <input type="text" id="roll-no2" name="roll-no2" required>
+                                        </li>
+                                    </ol>
+                                </fieldset>
+                            </li>
+                        </ol>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend class="form-legend">Minority Certificate</legend>
+                        <ol>
+                            <li class="form-field">
+                                <label for="headmaster-name">Headmaster name:</label>
+                                <input type="text" id="headmaster-name" name="headmaster-name" required>
+                            </li>
+                            <li class="form-field">
+                                <label for="school-name">School Name:</label>
+                                <input type="text" id="school-name" name="school-name" required>
+                            </li>
+                            <li class="form-field">
+                                <label for="school-location">School Location:</label>
+                                <input type="text" id="school-location" name="school-location" required>
+                            </li>
+                            <li class="form-field">
+                                <label for="student-name">Student Name:</label>
+                                <input type="text" id="student-name" name="student-name" required>
+                            </li>
+                            <li class="form-field">
+                                <label for="father-name">Student Father Name:</label>
+                                <input type="text" id="father-name" name="father-name" required>
+                            </li>
+                            <li class="form-field">
+                                <label for="admission-number">Admission Number:</label>
+                                <input type="text" id="admission-number" name="admission-number" required>
+                            </li>
+                            <li class="form-field">
+                                <label for="academic-year">Academic Year:</label>
+                                <input type="text" id="academic-year" name="academic-year" required>
+                            </li>
+                        </ol>
+                    </fieldset>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </aside>
+        
+        </section>
+    </main>
+    
+    <footer>
+        <p class="footer-text">© 2023 Form Example. All rights reserved.</p>
+    </footer>
+    <script>
+        const fileInput = document.getElementById('profile-picture');
+        const previewImage = document.getElementById('preview-image');
+
+        fileInput.addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(event) {
+                previewImage.src = event.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        });
+    </script>
+</body>
+</html>
